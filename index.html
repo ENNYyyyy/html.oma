@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>This is just a little something to just make this day more memorable. 💕</h3>
+        <iframe src="https://bandcamp.com/EmbeddedPlayer/album=1257160096/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/track=965740023/transparent=true/" seamless allow="autoplay"></iframe>
+        
+        <p class="drag-text">Drag the image at the left corner of your screen</p>
+
+        <button id="play-button">Play Letter</button>
+        <div id="video-container">
+            <video id="letter-video" src="./oma.mp4" playsinline></video>
+        </div>
+
+        <a id="music-player" href="https://open.spotify.com/playlist/5nlmRWGl6QU1Xh3TzCaz1x?si=a5443ab0412d4c2e" target="_blank">
+            <div class="music-container">
+                <div class="music-icon">🎶</div>
+                <div class="music-text">
+                    <p>Check this playlist I created for you</p>
+                    <strong>Oma Vibes ❤</strong>
+                </div>
+                <div class="play-button">▶</div>
+            </div>
+        </a>
+    </div>
+
+    <img id="draggable-image" src="./oma.jpg" alt="Draggable Image">
+
+    <script src="script.js"></script>
+</body>
+</html>
